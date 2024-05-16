@@ -11213,6 +11213,18 @@ nav.page-navbar.affix .navbar-brand .text-dark {
   color: #fff;
 }
 
+.header .success-content {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  right: 30%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: ‌ center;
+  color: #fff;
+}
+
 .header .header-content p {
   color: white;
   opacity: 1;
