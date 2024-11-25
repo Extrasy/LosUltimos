@@ -425,9 +425,13 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3rem;
-  font-weight: 300;
-  line-height: 1.2;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    width: 35%;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 
 hr {
@@ -11334,6 +11338,12 @@ section.height-auto {
   height: auto !important;
   min-height: auto !important;
   max-height: auto !important;
+}
+
+section.height-fixed {
+  height: 280.70px !important;
+  min-height: 280.70px !important;
+  max-height: 280.70px !important;
 }
 
 .has-bg-overlay {
